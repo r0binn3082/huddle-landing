@@ -4,7 +4,7 @@
 }
 body{
     overflow: visible;
-    background: white;
+    background: var(--Violet);
     background-image: url(../images/bg-desktop.svg); 
 }
 .background{
@@ -58,7 +58,7 @@ footer{
 button:hover{
     background-color: var(--Soft-Magenta);
 }
-@media (min-width:375px) {
+@media (max-width:375px) {
     body{
         background-image: url(../images/bg-mobile.svg);
         background-repeat: no-repeat;
