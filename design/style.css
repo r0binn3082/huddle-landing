@@ -12,7 +12,8 @@ body{
 }
 .mockups{
     top: 10vw;
-    left: 5vw;
+    left: 15vw;
+    padding-left: 30px;
 }
 .desc{
     position: absolute;
@@ -92,4 +93,8 @@ button:hover{
         bottom: 3px;
         margin: auto;   
     }
+}
+.logo{
+    padding: 20px 0 50px 20px;
+
 }
